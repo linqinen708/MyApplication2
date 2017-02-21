@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--android:imeOptions="actionSearch" 就是把Enter键设置为Search键，并把点击Enter键的动作设为actionSearch-->
+
+
+    <item
+        android:id="@+id/addItem"
+        android:orderInCategory="100"
+        android:title="增加项目"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filtrateBeModifiedData"
+        android:orderInCategory="100"
+        android:title="修改过的数据"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/deleteAllData"
+        android:orderInCategory="100"
+        android:title="清空数据库"
+        app:showAsAction="never" />
+</menu>
